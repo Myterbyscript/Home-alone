@@ -1,0 +1,56 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "🎃OgeidxFrost-hub🧊", HidePremium = false, SaveConfig = true, ConfigFolder = "OGEIDSCRIPTS",IntroEnabled = true, IntroText = "Bem Vindo ao OgeidxFrost-hub, versão home alons"})
+
+local Section = Tab:AddSection({
+    Name = "teleportes"
+})
+
+
+Tab:AddButton({
+
+  Name = jardim
+
+  Callback = function()
+
+local LSU = loadstring(game:HttpGet("https://raw.githubusercontent.com/KrypDeveloper/MAXIMUS-LIBRARY/main/Maximus.lua"))()
+
+LSU.TeleportPlayer(30, 4, -114)
+
+
+Tab:AddButton({
+
+  Name = cozinha
+
+  Callback = function()
+
+
+local LSU = loadstring(game:HttpGet("https://raw.githubusercontent.com/KrypDeveloper/MAXIMUS-LIBRARY/main/Maximus.lua"))()
+
+LSU.TeleportPlayer( 23, 8, -96)
+
+Tab:AddButton({
+
+  Name = mesa 
+
+  Callback = function()
+
+
+local LSU = loadstring(game:HttpGet("https://raw.githubusercontent.com/KrypDeveloper/MAXIMUS-LIBRARY/main/Maximus.lua"))()
+
+LSU.TeleportPlayer( -14, 8, -91)
+
+
+Tab:AddButton({
+
+  Name = sala
+
+  Callback = function()
+
+
+local LSU = loadstring(game:HttpGet("https://raw.githubusercontent.com/KrypDeveloper/MAXIMUS-LIBRARY/main/Maximus.lua"))()
+
+LSU.TeleportPlayer(-12, 8, -64)
+
+
+OrionLib.Init()
